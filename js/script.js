@@ -37,5 +37,5 @@ if(document.querySelector('.main .wrap .left .slider')) {
             slideWrapper.style.left = parseInt(slideWrapper.style.left) + step + 'px';
         }
     }
-    document.querySelector('.main .wrap .left .slider').style.minHeight=parseInt(slideWrapper.offsetHeight)+'px';
+    document.querySelector('.main .wrap .left .slider').style.minHeight=parseInt(slideWrapper.offsetHeight) + 10 + 'px';
 }

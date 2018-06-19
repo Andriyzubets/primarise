@@ -548,12 +548,16 @@ a {
 	align-items: center;
 	margin-right: 10px;
 }
+.main .wrap .left .slider .wrapper .item:hover .img {
+	filter: drop-shadow(0px 0px 2px #000000);
+}
 .main .wrap .left .slider .wrapper .item .img {
 	width: 95%;
 	padding-top: 70%;
 	background: url(../img/pers1.jpg) 50% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	transition: all .2s ease-in-out
 }
 .main .wrap .left .slider .wrapper .item:nth-of-type(2n) .img {
 	background: url(../img/pers2.jpg) 50% no-repeat;
