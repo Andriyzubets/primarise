@@ -134,7 +134,7 @@ a {
 	transition: all 1.2s;
 }
 .header .content .main-menu a:hover  {
-	color: #111111;
+	color: #ffffff;
 	z-index: 1;
 }
 .header .content .main-menu a:hover:after  {
@@ -205,7 +205,7 @@ a {
 	transition: all 1.2s;
 }
 .header .content .main-menu a:hover span {
-	color: #111111;
+	color: #ffffff;
 }
 /* sandw */
 .sandwich-right-bar {
@@ -403,15 +403,43 @@ a {
 }
 .main .wrap .right .item .cont .link {
 	margin: 0 0 10px;
-	padding: 1px 12px 5px;
+	padding: 5px 12px 7px;
 	align-self: flex-start;
-	border: 2px solid #c0c0c0;
+	/*border: 2px solid #c0c0c0;*/
 	overflow: hidden;
-	transition: all .2s ease-in-out;
+	transition: all .6s ease-in-out;
+	position: relative;
 }
+.main .wrap .right .item:hover .cont .link:after  {
+	z-index: -10;
+	animation: fill .6s both;
+	-webkit-animation: fill .6s both;
+	-moz-animation: fill .6s both;
+	opacity: 1;
+}
+.main .wrap .right .item .cont .link:after  {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #f5a76c;
+	height: 1px;
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	animation: fillBack .6s both;
+	-webkit-animation: fillBack .6s both;
+	-moz-animation: fillBack .6s both;
+}
+
 .main .wrap .right .item:hover .link {
-	border-color: #111111;
-	background: #111111;
+	/*border-color: #f5a76c;
+	background: #f5a76c;*/
 	color: #ffffff;
 }
 .main .wrap .right .more {
@@ -512,13 +540,40 @@ a {
 	margin: 30px 0 10px;
 	padding: 1px 12px 5px;
 	align-self: flex-start;
-	border: 2px solid #c0c0c0;
+	/*border: 2px solid #c0c0c0;*/
 	overflow: hidden;
-	transition: all .2s ease-in-out;
+	transition: all .6s ease-in-out;
+	position: relative;
+}
+.main .wrap .left .main-news .item:hover .cont .link:after  {
+	z-index: -10;
+	animation: fill .6s both;
+	-webkit-animation: fill .6s both;
+	-moz-animation: fill .6s both;
+	opacity: 1;
+}
+.main .wrap .left .main-news .item .cont .link:after  {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #f5a76c;
+	height: 1px;
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	animation: fillBack .6s both;
+	-webkit-animation: fillBack .6s both;
+	-moz-animation: fillBack .6s both;
 }
 .main .wrap .left .main-news .item:hover .link {
-	border-color: #111111;
-	background: #111111;
+	/*border-color: #f5a76c;
+	background: #f5a76c;*/
 	color: #ffffff;
 }
 .main .wrap .left .slider {
