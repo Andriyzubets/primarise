@@ -33,6 +33,13 @@ a {
 	background: #000000 url(../img/orn2-ora.png) 98% no-repeat;
 	background-size: 50px;
 }
+.header .main-wrap.fixed .content {
+	padding: 15px 0 0;
+}
+.header .main-wrap.fixed .logo {
+	width: 120px;
+	padding-top: 80px;
+}
 .header .header-contact {
 	background: linear-gradient(230deg, #f5f5f5, #c0c0c0, #c0c0c0);
 }
@@ -101,6 +108,7 @@ a {
 	-ms-align-items: flex-start;
 	align-items: flex-start;
 }
+
 .header .content .logo {
 	width: 140px;
 	padding-top: 90px;
