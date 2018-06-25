@@ -147,9 +147,9 @@ a {
 	font-size: 14px;
 	line-height: 1.2em;
 	position: relative;
-	-webkit-transition: all 1.2s;
-	-o-transition: all 1.2s;
-	transition: all 1.2s;
+	-webkit-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
 }
 .header .content .main-menu a:hover  {
 	color: #ffffff;
@@ -157,9 +157,9 @@ a {
 }
 .header .content .main-menu a:hover:after  {
 	z-index: -10;
-	animation: fill .6s both;
-	-webkit-animation: fill .6s both;
-	-moz-animation: fill .6s both;
+	animation: fill .3s both;
+	-webkit-animation: fill .3s both;
+	-moz-animation: fill .3s both;
 	opacity: 1;
 }
 .header .content .main-menu a:after  {
@@ -218,9 +218,9 @@ a {
 	margin-top: 5px;
 	font-family: Roboto;
 	color: #f5a76c;
-	-webkit-transition: all 1.2s;
-	-o-transition: all 1.2s;
-	transition: all 1.2s;
+	-webkit-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
 }
 .header .content .main-menu a:hover span {
 	color: #ffffff;
@@ -434,9 +434,9 @@ a {
 	}
 	.main .wrap .right .item:hover .cont .link:after  {
 		z-index: -10;
-		animation: fill .6s both;
-		-webkit-animation: fill .6s both;
-		-moz-animation: fill .6s both;
+		animation: fill .3s both;
+		-webkit-animation: fill .3s both;
+		-moz-animation: fill .3s both;
 		opacity: 1;
 	}
 	.main .wrap .right .item .cont .link:after  {
@@ -454,9 +454,9 @@ a {
 		-webkit-transition: all .3s ease-in-out;
 		-o-transition: all .3s ease-in-out;
 		transition: all .3s ease-in-out;
-		animation: fillBack .6s both;
-		-webkit-animation: fillBack .6s both;
-		-moz-animation: fillBack .6s both;
+		animation: fillBack .3s both;
+		-webkit-animation: fillBack .3s both;
+		-moz-animation: fillBack .3s both;
 	}
 
 	.main .wrap .right .item:hover .link {
@@ -526,6 +526,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
+	transition: all .3s ease-in-out;
 }
 .main .wrap .left .main-news .item:hover {
 	/*background: #e5e5e5;*/
@@ -582,14 +583,14 @@ a {
 	align-self: flex-start;
 	/*border: 2px solid #c0c0c0;*/
 	overflow: hidden;
-	transition: all .6s ease-in-out;
+	transition: all .3s ease-in-out;
 	position: relative;
 }
 .main .wrap .left .main-news .item:hover .cont .link:after  {
 	z-index: -10;
-	animation: fill .6s both;
-	-webkit-animation: fill .6s both;
-	-moz-animation: fill .6s both;
+	animation: fill .3s both;
+	-webkit-animation: fill .3s both;
+	-moz-animation: fill .3s both;
 	opacity: 1;
 }
 .main .wrap .left .main-news .item .cont .link:after  {
@@ -607,9 +608,9 @@ a {
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
-	animation: fillBack .6s both;
-	-webkit-animation: fillBack .6s both;
-	-moz-animation: fillBack .6s both;
+	animation: fillBack .3s both;
+	-webkit-animation: fillBack .3s both;
+	-moz-animation: fillBack .3s both;
 }
 .main .wrap .left .main-news .item:hover .link {
 	/*border-color: #f5a76c;
